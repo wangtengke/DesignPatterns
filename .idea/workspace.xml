@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0418fcf6-5471-4d9b-89a8-03024b4a5785" name="Default Changelist" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/Football.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/GameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/SubjectImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wtk/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wtk/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wtk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -102,6 +106,10 @@
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/nashorn/internal/objects/annotations/annotations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplatePattern/Football.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatePattern/Football.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplatePattern/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatePattern/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jikongxitong.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../org/springframework/beans/factory/annotation/annotations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
@@ -189,26 +197,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="117" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="128" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="117" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="128" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3499" />
+          <entry key="java" value="3925" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3499" />
+          <entry key="JAVA" value="3925" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -217,60 +225,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/RunState.java">
+        <entry file="file://$PROJECT_DIR$/src/TemplatePattern/GameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/StopState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/LiftState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/CloseState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" selection-start-line="5" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/StateMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="188">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -278,51 +236,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="34">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Basketball.java">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="114">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
               <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TemplatePattern/GameMain.java">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="242">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Football.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="122">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -343,14 +339,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ObserverPattern/SubjectImpl.java" />
-        <option value="$PROJECT_DIR$/src/ObserverPattern/OberverMain.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/StatePattern/StopState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/LiftState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/OpenState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/RunState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/CloseState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/Context.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/StateMain.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/Clothes.java" />
@@ -390,10 +378,18 @@
         <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/SweaterClothes.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/TrouserPants.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/AbstractFactoryMain.java" />
+        <option value="$PROJECT_DIR$/src/TemplatePattern/GameMain.java" />
         <option value="$PROJECT_DIR$/src/TemplatePattern/Game.java" />
         <option value="$PROJECT_DIR$/src/TemplatePattern/Football.java" />
         <option value="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" />
-        <option value="$PROJECT_DIR$/src/TemplatePattern/GameMain.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/SubjectImpl.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java" />
       </list>
     </option>
   </component>
@@ -426,12 +422,27 @@
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticProxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -452,7 +463,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535620438558" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535628918581" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -462,12 +473,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ProxyPattern.DynamicProxy" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ProxyPattern.StaticProxy" />
       <recent name="TemplatePattern" />
       <recent name="FactoryPattern.AbstractFactory" />
       <recent name="FactoryPattern.Factory" />
       <recent name="FactoryPattern.SimpleFactory" />
-      <recent name="StatePattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,7 +496,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameMain">
+  <component name="RunManager" selected="Application.DnamicProxyMain">
     <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactoryPattern.AbstractFactory.AbstractFactoryMain" />
       <module name="DesignPatterns" />
@@ -496,12 +510,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPattern.Factory.FactoryMain" />
+    <configuration name="DnamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyPattern.DynamicProxy.DnamicProxyMain" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryPattern.Factory.*" />
+          <option name="PATTERN" value="ProxyPattern.DynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -522,12 +536,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPattern.SimpleFactory.SimpleFactoryMain" />
+    <configuration name="ProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyPattern.StaticProxy.ProxyMain" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryPattern.SimpleFactory.*" />
+          <option name="PATTERN" value="ProxyPattern.StaticProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -550,18 +564,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.StateMain" />
-      <item itemvalue="Application.SimpleFactoryMain" />
-      <item itemvalue="Application.FactoryMain" />
       <item itemvalue="Application.AbstractFactoryMain" />
       <item itemvalue="Application.GameMain" />
+      <item itemvalue="Application.ProxyMain" />
+      <item itemvalue="Application.DnamicProxyMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DnamicProxyMain" />
+        <item itemvalue="Application.ProxyMain" />
         <item itemvalue="Application.GameMain" />
         <item itemvalue="Application.StateMain" />
         <item itemvalue="Application.AbstractFactoryMain" />
-        <item itemvalue="Application.FactoryMain" />
-        <item itemvalue="Application.SimpleFactoryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -578,12 +592,12 @@
       <workItem from="1535179425856" duration="1452000" />
       <workItem from="1535180976691" duration="21718000" />
       <workItem from="1535334155111" duration="8061000" />
-      <workItem from="1535617822471" duration="1705000" />
+      <workItem from="1535617822471" duration="6353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32936000" />
+    <option name="totallyTimeSpent" value="37584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -598,7 +612,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,70 +690,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="init project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/PantsFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/Clothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/Pants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/CoatClothesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/ShortFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/CoatClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/ShortPants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/SweaterClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/TrouserPants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/SweaterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1002,16 +952,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/CloseState.java">
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/StateMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StatePattern/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="22">
           <caret line="5" selection-start-line="5" selection-end-line="38" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1021,17 +971,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/StateMain.java">
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/CloseState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="4">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Football.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="308">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
@@ -1043,17 +993,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Basketball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
@@ -1065,10 +1008,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/nashorn/internal/objects/annotations/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/SubjectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatePattern/GameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="188">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>

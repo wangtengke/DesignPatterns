@@ -2,7 +2,7 @@ package TemplatePattern;
 
 /**
  * @program: DesignPatterns
- * @description:
+ * @description: 足球类
  * @author: WangTengKe
  * @create: 2018-08-30
  **/
