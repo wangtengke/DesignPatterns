@@ -4,6 +4,7 @@ import ObserverPattern.Oberser;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
  * @program: DesignPatterns
@@ -17,7 +18,12 @@ public class DnamicProxySubject implements InvocationHandler {
     public DnamicProxySubject(Object object){
         this.object = object;
     }
+    public Object getDnamicProxy(){
+        ClassLoader classLoader = object.getClass().getClassLoader();
 
+        Object result = Proxy.newProxyInstance(classLoader,object.getClass().getInterfaces(),this);
+        return result;
+    }
     /**
     * @Description:
     * @Param: [proxy, method, args]

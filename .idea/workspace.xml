@@ -1,181 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0418fcf6-5471-4d9b-89a8-03024b4a5785" name="Default Changelist" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/SubjectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Mapper/ArticleSqlProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Mapper/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Mapper/TestSqlProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Mapper/User_InfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Mapper/User_InfoSqlProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Model/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Model/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Model/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Model/User_Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Service/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Service/TestServiceImpI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Service/User_InfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/Service/User_InfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/java/com/blog/wtk/WtkApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/main/resources/templates/registered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wtk/src/test/java/com/blog/wtk/WtkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/jikongxitong_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/jikongxitong_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/c714efba-e25c-4c0f-b9f9-5ffd4b0e8cfd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_pool_commons_pool_1_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2_1_b03.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__log4j_log4j_1_2_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__logkit_logkit_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__taglibs_standard_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="038bec32-e797-42db-9e90-37a0894e969e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/nashorn/internal/objects/annotations/annotations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplatePattern/Football.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatePattern/Football.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplatePattern/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatePattern/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jikongxitong.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../org/springframework/beans/factory/annotation/annotations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/dao/AddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/dao/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/dao/UniversityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/dao/cityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/AddressExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/Msg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/StudentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/UniversityExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/city.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/entity/cityExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/task/MyTaskAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/jikong/task/MyTaskXml.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/generator.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/sqlmap/AddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/sqlmap/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/sqlmap/UniversityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/sqlmap/cityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/index1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/index2.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/index3.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/bingzhuangtu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ichart.1.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/theme/default/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/theme/default/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/theme/default/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/theme/default/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/theme/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/zhuzhuangtu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/jikong/dao/UniversityMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,152 +21,85 @@
     <session id="545620201">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
-          <entry key="java" value="128" />
-          <entry key="xml" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="2" />
-          <entry key="JAVA" value="128" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3925" />
-          <entry key="txt" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3925" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Git file" value="1" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatePattern/GameMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/ObserverPattern/QQchatOberser.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/ObserverPattern/WechatOberser.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StatePattern/CloseState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StatePattern/LiftState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StatePattern/StateMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            </state>
+            <state relative-caret-position="-132" />
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -339,57 +107,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StatePattern/Context.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/StateMain.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/Clothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/TshirtClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/SweaterClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/CoatClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/SimpleFactoryMain.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/ClothesFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/Clothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/TshirtClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/CoatClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/ClothesFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/SweaterFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/TshirtFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/CoatFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/FactoryMain.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Factory/SweaterClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/TrouserPants.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ShortPants.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/CoatClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/SweaterClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/PantsFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ClothesFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/CoatClothesFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/SweaterFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ShortFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/TrouserFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/Clothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/Pants.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/CoatClothesFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/SweaterFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/TrouserFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/ShortFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/CoatClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/ShortPants.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/SweaterClothes.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/ProductImpl/TrouserPants.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/AbstractFactoryMain.java" />
-        <option value="$PROJECT_DIR$/src/TemplatePattern/GameMain.java" />
-        <option value="$PROJECT_DIR$/src/TemplatePattern/Game.java" />
-        <option value="$PROJECT_DIR$/src/TemplatePattern/Football.java" />
-        <option value="$PROJECT_DIR$/src/TemplatePattern/Basketball.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/SubjectImpl.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -403,9 +121,6 @@
     <option name="y" value="82" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -422,40 +137,25 @@
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="StaticProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplatePattern" type="462c0819:PsiDirectoryNode" />
+              <item name="StatePattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -463,26 +163,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535628918581" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535694804830" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ProxyPattern.DynamicProxy" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ProxyPattern.StaticProxy" />
-      <recent name="TemplatePattern" />
-      <recent name="FactoryPattern.AbstractFactory" />
-      <recent name="FactoryPattern.Factory" />
-      <recent name="FactoryPattern.SimpleFactory" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -496,52 +183,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DnamicProxyMain">
-    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPattern.AbstractFactory.AbstractFactoryMain" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FactoryPattern.AbstractFactory.ProductImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StateMain">
     <configuration name="DnamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProxyPattern.DynamicProxy.DnamicProxyMain" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ProxyPattern.DynamicProxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TemplatePattern.GameMain" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TemplatePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProxyPattern.StaticProxy.ProxyMain" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProxyPattern.StaticProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -562,20 +210,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
+      <option name="WORKING_DIRECTORY" value="D:\Idea\DesignPatterns" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.StateMain" />
-      <item itemvalue="Application.AbstractFactoryMain" />
-      <item itemvalue="Application.GameMain" />
-      <item itemvalue="Application.ProxyMain" />
+      <item itemvalue="JAR Application.Unnamed" />
       <item itemvalue="Application.DnamicProxyMain" />
+      <item itemvalue="Application.StateMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DnamicProxyMain" />
-        <item itemvalue="Application.ProxyMain" />
-        <item itemvalue="Application.GameMain" />
         <item itemvalue="Application.StateMain" />
-        <item itemvalue="Application.AbstractFactoryMain" />
+        <item itemvalue="Application.DnamicProxyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -584,32 +232,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0418fcf6-5471-4d9b-89a8-03024b4a5785" name="Default Changelist" comment="" />
-      <created>1535179422460</created>
+      <changelist id="038bec32-e797-42db-9e90-37a0894e969e" name="Default Changelist" comment="" />
+      <created>1535683691818</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535179422460</updated>
-      <workItem from="1535179425856" duration="1452000" />
-      <workItem from="1535180976691" duration="21718000" />
-      <workItem from="1535334155111" duration="8061000" />
-      <workItem from="1535617822471" duration="6353000" />
+      <updated>1535683691818</updated>
+      <workItem from="1535683693619" duration="3339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37584000" />
+    <option name="totallyTimeSpent" value="3339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991454" />
@@ -617,488 +268,78 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32820514" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3811966" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32991454" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection>
-                  <UserGroup>
-                    <option name="users">
-                      <list>
-                        <option value="me" />
-                      </list>
-                    </option>
-                  </UserGroup>
-                </collection>
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java</url>
+          <line>11</line>
+          <properties class="ProxyPattern.DynamicProxy.DnamicProxyMain" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/SweaterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/FactoryImpl/TrouserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/AbstractFactory/AbstractFactoryMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonDCL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonMuliThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/Clothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/CoatClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/SweaterClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/TshirtClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/SimpleFactoryMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimpleFactory/ClothesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="2" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/Clothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/CoatClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/SweaterClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/TshirtClothes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/ClothesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/CoatFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/SweaterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/TshirtFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Factory/FactoryMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Oberser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObserverPattern/QQchatOberser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/MsgOberser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ObserverPattern/WechatOberser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="14" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/SubjectImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" selection-start-line="5" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/OberverMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/OpenState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/RunState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/StopState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/LiftState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/StateMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" selection-start-line="5" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StatePattern/CloseState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="122">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Football.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Basketball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/nashorn/internal/objects/annotations/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/SubjectImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/LiftState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/ProxyMain.java">
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/StateMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatePattern/GameMain.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatePattern/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/StaticProxy/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/SubjectImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/DnamicProxyMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
+        <state relative-caret-position="-132" />
       </provider>
     </entry>
   </component>

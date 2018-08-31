@@ -10,10 +10,12 @@ import java.lang.reflect.Proxy;
  **/
 public class DnamicProxyMain {
     public static void main(String[] args){
+        //目标对象
         Subject subject=  new SubjectImpl();
+        //动态创建代理对象，将目标对象传入
         DnamicProxySubject dnamicProxySubject = new DnamicProxySubject(subject);
-        ClassLoader classLoader = subject.getClass().getClassLoader();
-        Subject result = (Subject) Proxy.newProxyInstance(classLoader,new Class[]{Subject.class},dnamicProxySubject);
-        result.visit();
+        Subject subject1 = (Subject) dnamicProxySubject.getDnamicProxy();
+        //访问目标对象方法
+        subject1.visit();
     }
 }
