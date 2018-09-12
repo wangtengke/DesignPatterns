@@ -17,5 +17,6 @@ public class DnamicProxyMain {
         Subject subject1 = (Subject) dnamicProxySubject.getDnamicProxy();
         //访问目标对象方法
         subject1.visit();
+        subject1.show();
     }
 }

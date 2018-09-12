@@ -14,4 +14,9 @@ public class SubjectImpl implements Subject{
     public void visit() {
         System.out.println(msg);
     }
+
+    @Override
+    public void show() {
+        System.out.println("show method");
+    }
 }

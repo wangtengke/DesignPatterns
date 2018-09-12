@@ -6,4 +6,5 @@ package ProxyPattern.DynamicProxy;
  */
 public interface Subject {
     void visit();
+    void show();
 }

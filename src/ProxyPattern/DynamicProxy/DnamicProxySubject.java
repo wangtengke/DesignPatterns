@@ -33,6 +33,9 @@ public class DnamicProxySubject implements InvocationHandler {
     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return method.invoke(object , args);
+        System.out.println("DnamicProxy start");
+        Object result= method.invoke(object , args);
+        System.out.println("DnamicProxy finish");
+        return result;
     }
 }
