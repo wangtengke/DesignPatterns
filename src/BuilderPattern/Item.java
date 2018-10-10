@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @program: DesignPatterns
- * @description: 建造订单
+ * @description: 建造订单以及一些相关的方法
  * @author: WangTengKe
  * @create: 2018-10-10
  **/

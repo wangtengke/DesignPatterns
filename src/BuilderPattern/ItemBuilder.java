@@ -2,7 +2,7 @@ package BuilderPattern;
 
 /**
  * @program: DesignPatterns
- * @description: 建造订单
+ * @description: 真正建造订单的地方
  * @author: WangTengKe
  * @create: 2018-10-10
  **/
