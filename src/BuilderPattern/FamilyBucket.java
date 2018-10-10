@@ -2,14 +2,14 @@ package BuilderPattern;
 
 /**
  * @program: DesignPatterns
- * @description: 汉堡
+ * @description: 全家桶
  * @author: WangTengKe
  * @create: 2018-10-10
  **/
-public class Burger implements Order {
+public class FamilyBucket implements Order {
     @Override
     public String name() {
-        return "Burger";
+        return "FamilyBucket";
     }
 
     @Override
@@ -19,11 +19,11 @@ public class Burger implements Order {
 
     @Override
     public OrderType orderType() {
-        return new Singleton();
+        return new Package();
     }
 
     @Override
     public int price() {
-        return 15;
+        return 100;
     }
 }

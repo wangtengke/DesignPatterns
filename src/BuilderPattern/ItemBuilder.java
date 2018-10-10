@@ -11,7 +11,7 @@ public class ItemBuilder {
    public Item createItem(){
        item.addItem(new Cola());
        item.addItem(new Burger());
-       item.addPrice();
+       item.addItem(new FamilyBucket());
        item.showDisplay();
        return item;
    }

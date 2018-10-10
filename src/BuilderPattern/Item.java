@@ -26,8 +26,8 @@ public class Item {
     //展示结果
     public void showDisplay(){
         for (Order order:orders){
-            System.out.println(String.format("result:[orderName:%s,orderType:%s,foodType:%s,orderPrice:%d]",order.name(),order.orderType(),order.foodType(),order.price()));
+            System.out.println(String.format("result:[orderName:%s,orderType:%s,foodType:%s,orderPrice:%d]",order.name(),order.orderType().OrderType(),order.foodType().FoodType(),order.price()));
         }
-
+        System.out.println(String.format("TotalCost:%d",addPrice()));
     }
 }
