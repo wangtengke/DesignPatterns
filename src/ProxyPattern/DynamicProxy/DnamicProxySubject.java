@@ -21,7 +21,7 @@ public class DnamicProxySubject implements InvocationHandler {
     public Object getDnamicProxy(){
         ClassLoader classLoader = object.getClass().getClassLoader();
 
-        Object result = Proxy.newProxyInstance(classLoader,object.getClass().getInterfaces(),this);
+        Object result = Proxy.newProxyInstance(classLoader,new Class[]{Subject.class},this);
         return result;
     }
     /**
